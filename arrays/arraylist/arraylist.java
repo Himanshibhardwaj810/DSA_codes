@@ -1,0 +1,59 @@
+package arrays.arraylist;
+
+public class arraylist {
+    package arraylist;
+import java.util.*;
+
+public class Arraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> list=new ArrayList(5);
+		list.add(12);
+		list.add(45);
+		list.add(54);
+		list.add(54);
+		System.out.println(list);
+		list.set(0, 423);
+		System.out.println(list);
+		System.out.println(list.contains(45));
+		list.remove(2);
+		System.out.println(list);
+		
+		//input
+		 Scanner in=new Scanner(System.in);
+		 ArrayList<Integer> list1=new ArrayList(5);
+		 for(int i=0;i<5;i++) {
+			 list1.add(in.nextInt());
+		 }
+		 System.out.println(list1);
+		 
+		 
+		 //to get an element from index
+		 for(int i=0;i<5;i++) {
+			 System.out.println(list1.get(i));//list[i] doesn't work
+		 }
+		 
+		 //creating multidimensional array using array list
+		 
+		 ArrayList<ArrayList<Integer>> darray=new ArrayList();
+		 //initialization
+		 for (int i=0;i<3;i++) {//each row
+			 darray.add(new ArrayList<>());
+			 
+		 }
+		 for (int i=0;i<3;i++) {
+			 for(int j=0;j<3;j++) {
+				
+		           darray.get(i).add(in.nextInt());	 
+			 }
+		 }
+		 System.out.println(darray);
+		 in.close();
+		 
+
+	}
+
+}
+
+}
