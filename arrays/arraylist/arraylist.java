@@ -8,7 +8,7 @@ public class Arraylist {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<Integer> list=new ArrayList(5);
+		ArrayList<Integer> list=new ArrayList<>(5);
 		list.add(12);
 		list.add(45);
 		list.add(54);
