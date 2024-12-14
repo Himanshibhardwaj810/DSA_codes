@@ -23,7 +23,7 @@ public class rotatae_doubly_linked_list {
 		
 		Node curr=head;
 		Node prev=null;
-		Node next=prev;
+		Node next=null;
 		int count=0;
 		while(curr!=null && count<k) {
 			next=curr.next;
