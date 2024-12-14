@@ -50,8 +50,7 @@ public class doubly_linkedlist {
 		temp.next.prev=temp;
 		
 	}
-	
-	
+
 	//display
 	public void display() {
 		Node node = head;

@@ -4,7 +4,7 @@ public class parenthesis {
     package stack;
 import java.util.Stack;
 
-public class parentehsis_ {
+public class parenthesis_ {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
