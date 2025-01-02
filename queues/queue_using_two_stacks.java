@@ -1,7 +1,7 @@
 package queues;
 
 public class queue_using_two_stacks {
-    package Queue;
+package Queue;
 import java.util.*;
 public class queue_using_two_stacks {
 	Stack<Integer>stack1;

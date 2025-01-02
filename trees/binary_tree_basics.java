@@ -1,7 +1,7 @@
 package trees;
 
 public class binary_trees {
-    package Binary_tree;
+package Binary_tree;
 import java.util.*;
 public class binary_tree_basics {
 	

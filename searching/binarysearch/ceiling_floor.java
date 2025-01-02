@@ -1,7 +1,7 @@
 package searching.binarysearch;
 
 public class ceiling_floor {
-    package Binarysearch;
+package Binarysearch;
 
 public class ceiling_and_floor {
 	// find the ceiling number
